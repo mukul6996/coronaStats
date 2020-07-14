@@ -1,0 +1,138 @@
+.country-box .title-area{
+    background: #f5f5f5;
+    color: #2d2d2d;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #ddd;
+}
+
+.corona-wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.country-box .title-area span{
+    color: #8ACA2B;
+}
+
+.box-container{
+    padding: 15px;
+}
+
+.box-container .box-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    border: 1px solid #dcdada;
+    margin-bottom: 15px;
+}
+
+.box-container .box-row .title-area{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.box-container .box-row .box .title-area{
+    max-width: initial;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+    background: #f5f5f5;
+    color: #000;
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+
+.box-container .box-row .title-area h2{
+    background: #8aca2b;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 20px;
+}
+
+.box-container .box-row .box{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 8px;
+    margin-bottom: 15px;
+}
+
+.box-container .box-row .box .content{
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.box-container .box-row .count-area{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    color: #2d2d2d;
+}
+
+.footer-text{
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+    background: #eee;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.still-pending-count{
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 5px;
+    background: #8aca2b;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+
+.corona-wrapper select{
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+    color: #333;
+    padding-left: 5px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.corona-info-row{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.corona-info-row .corona-info-column{
+    padding: 0 15px;
+}
+
+.corona-info-row .corona-info-column.info-col-1{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
